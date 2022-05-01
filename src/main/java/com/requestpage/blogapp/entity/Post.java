@@ -26,4 +26,8 @@ public class Post {
     private Date createdDate;
     private Date updatedDate;
 
+    public Post(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }

@@ -21,4 +21,10 @@ public class PostViewDto {
     private Date createdDate;
     private Date updatedDate;
 
+    public PostViewDto(Long id, String title, String content, Author author) {
+        this.id = id;
+        this.title = title;
+        this.content = content;
+        this.author = author;
+    }
 }

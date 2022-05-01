@@ -24,5 +24,8 @@ public class Author {
 
     private Date joinDate;
 
-
+    public Author(String nameSurname, String nickName) {
+        this.nameSurname = nameSurname;
+        this.nickName = nickName;
+    }
 }
